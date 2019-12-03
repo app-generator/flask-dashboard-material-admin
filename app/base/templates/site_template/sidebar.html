@@ -1,0 +1,134 @@
+
+        <!-- partial:partials/_sidebar.html -->
+        <aside class="mdc-drawer mdc-drawer--dismissible mdc-drawer--open">
+
+            <div class="mdc-drawer__header">
+              <a href="/" class="brand-logo">
+                <img src="/static/assets/images/logo.svg" alt="logo">
+              </a>
+            </div>
+            <div class="mdc-drawer__content">
+              <div class="user-info">
+                <p class="name">{{ current_user.username }}</p>
+                <p class="email">{{ current_user.email }}</p>
+              </div>
+              <div class="mdc-list-group">
+                <nav class="mdc-list mdc-drawer-menu">
+                  <div class="mdc-list-item mdc-drawer-item">
+                    <a class="mdc-drawer-link" href="/">
+                      <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">home</i>
+                      Dashboard
+                    </a>
+                  </div>
+                  <div class="mdc-list-item mdc-drawer-item">
+                    <a class="mdc-drawer-link" href="/ui-forms">
+                      <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">track_changes</i>
+                      Forms
+                    </a>
+                  </div>
+                  <div class="mdc-list-item mdc-drawer-item">
+                    <a class="mdc-expansion-panel-link" href="#" data-toggle="expansionPanel" data-target="ui-sub-menu">
+                      <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">dashboard</i>
+                      UI Features
+                      <i class="mdc-drawer-arrow material-icons">chevron_right</i>
+                    </a>
+                    <div class="mdc-expansion-panel" id="ui-sub-menu">
+                      <nav class="mdc-list mdc-drawer-submenu">
+                        <div class="mdc-list-item mdc-drawer-item">
+                          <a class="mdc-drawer-link" href="/ui-buttons">
+                            Buttons
+                          </a>
+                        </div>
+                        <div class="mdc-list-item mdc-drawer-item">
+                          <a class="mdc-drawer-link" href="/ui-typography">
+                            Typography
+                          </a>
+                        </div>
+                      </nav>
+                    </div>
+                  </div>
+                  <div class="mdc-list-item mdc-drawer-item">
+                    <a class="mdc-drawer-link" href="/ui-basic-tables">
+                      <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">grid_on</i>
+                      Tables
+                    </a>
+                  </div>
+                  <div class="mdc-list-item mdc-drawer-item">
+                    <a class="mdc-drawer-link" href="/chartjs">
+                      <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">pie_chart_outlined</i>
+                      Charts
+                    </a>
+                  </div>
+                  <div class="mdc-list-item mdc-drawer-item">
+                    <a class="mdc-expansion-panel-link" href="#" data-toggle="expansionPanel" data-target="sample-page-submenu">
+                      <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">pages</i>
+                      Sample Pages
+                      <i class="mdc-drawer-arrow material-icons">chevron_right</i>
+                    </a>
+                    <div class="mdc-expansion-panel" id="sample-page-submenu">
+                      <nav class="mdc-list mdc-drawer-submenu">
+                        <div class="mdc-list-item mdc-drawer-item">
+                          <a class="mdc-drawer-link" href="/page-blank">
+                            Blank Page
+                          </a>
+                        </div>
+                        <div class="mdc-list-item mdc-drawer-item">
+                          <a class="mdc-drawer-link" href="/page-403">
+                            403
+                          </a>
+                        </div>
+                        <div class="mdc-list-item mdc-drawer-item">
+                          <a class="mdc-drawer-link" href="/page-404">
+                            404
+                          </a>
+                        </div>
+                        <div class="mdc-list-item mdc-drawer-item">
+                          <a class="mdc-drawer-link" href="/page-500">
+                            500
+                          </a>
+                        </div>
+                        <div class="mdc-list-item mdc-drawer-item">
+                          <a class="mdc-drawer-link" href="/create_user">
+                            Register
+                          </a>
+                        </div>
+                      </nav>
+                    </div>
+                  </div>
+                  <div class="mdc-list-item mdc-drawer-item">
+                    <a class="mdc-drawer-link" href="https://www.bootstrapdash.com/demo/material-admin-free/jquery/documentation/documentation.html" target="_blank">
+                      <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">description</i>
+                      UI Documentation
+                    </a>
+                  </div>
+                </nav>
+              </div>
+              <div class="profile-actions">
+                <a href="javascript:;">Settings</a>
+                <span class="divider"></span>
+                <a href={{ url_for('base_blueprint.logout') }} >Logout</a>
+              </div>
+              <div class="mdc-card premium-card">
+                <div class="d-flex align-items-center">
+                  <div class="mdc-card icon-card box-shadow-0">
+                    <i class="mdi mdi-shield-outline"></i>
+                  </div>
+                  <div>
+                    <p class="mt-0 mb-1 ml-2 font-weight-bold tx-12">Material Admin</p>
+                    <p class="mt-0 mb-0 ml-2 tx-10">Flask Dashboard</p>
+                  </div>
+                </div>
+      
+                <br />
+      
+                <a href="https://appseed.us/admin-dashboards/flask-dashboard-material-admin" >
+                    <span class="mdc-button mdc-button--raised mdc-button--white">Product Info</span>
+                </a>
+                
+              </div>
+            </div>
+        
+        </aside>
+ 
+
+          

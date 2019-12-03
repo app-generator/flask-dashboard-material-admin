@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+      Flask Dashboard Material Admin - {% block title %}{% endblock %} | AppSeed
+  </title>
+
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="/static/assets/vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="/static/assets/vendors/css/vendor.bundle.base.css">
+  <!-- endinject -->
+  <!-- Plugin css for this page -->
+  <link rel="stylesheet" href="/static/assets/vendors/flag-icon-css/css/flag-icon.min.css">
+  <link rel="stylesheet" href="/static/assets/vendors/jvectormap/jquery-jvectormap.css">
+  <!-- End plugin css for this page -->
+  <!-- Layout styles -->
+  <link rel="stylesheet" href="/static/assets/css/demo/style.css">
+  <!-- End layout styles -->
+  <link rel="shortcut icon" href="/static/assets/images/favicon.png" />
+
+  {% block stylesheets %}{% endblock stylesheets %}
+
+</head>
+
+<body>
+<script src="/static/assets/js/preloader.js"></script>
+
+<div class="body-wrapper">
+
+    {% include 'site_template/sidebar.html' %}
+
+    <!-- partial -->
+    <div class="main-wrapper mdc-drawer-app-content">
+
+      {% include 'site_template/navigation.html' %}
+
+      <!-- partial -->
+      <div class="page-wrapper mdc-toolbar-fixed-adjust">
+        
+        <main class="content-wrapper">
+
+          {% block content %}{% endblock content %}
+
+        </main>
+
+        {% include 'site_template/footer.html' %}    
+
+      </div>
+    </div>
+  </div>
+
+  {% include 'site_template/scripts.html' %}
+
+  {% block javascripts %}{% endblock javascripts %}
+
+</body>
+</html>

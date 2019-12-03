@@ -1,0 +1,59 @@
+{% extends "base-site.html" %}
+
+{% block title %} Chartjs {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->  
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <div class="mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+          <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
+            <div class="mdc-card">
+              <h6 class="card-title">Line chart</h6>
+              <canvas id="lineChart"></canvas>
+            </div>
+          </div>
+          <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
+            <div class="mdc-card">
+              <h6 class="card-title">Bar chart</h6>
+              <canvas id="barChart"></canvas>
+            </div>
+          </div>
+          <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
+            <div class="mdc-card">
+              <h6 class="card-title">Area chart</h6>
+              <canvas id="areaChart"></canvas>
+            </div>
+          </div>
+          <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
+            <div class="mdc-card">
+              <h6 class="card-title">Doughnut chart</h6>
+              <canvas id="doughnutChart"></canvas>
+            </div>
+          </div>
+          <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
+            <div class="mdc-card">
+              <h6 class="card-title">Pie chart</h6>
+              <canvas id="pieChart"></canvas>
+            </div>
+          </div>
+          <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
+            <div class="mdc-card">
+              <h6 class="card-title">Scatter chart</h6>
+              <canvas id="scatterChart"></canvas>
+            </div>
+          </div>
+        </div>
+    </div>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+
+    <script src="/static/assets/vendors/chartjs/Chart.min.js"></script>
+    <script src="/static/assets/js/chartjs.js"></script>
+
+{% endblock javascripts %}

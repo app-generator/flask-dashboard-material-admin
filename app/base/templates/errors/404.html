@@ -1,0 +1,28 @@
+{% extends "base-site-fullscreen.html" %}
+
+{% block title %} Error 404 {% endblock %} 
+
+{% block content %}
+      
+    <div class="page-wrapper full-page-wrapper d-flex align-items-center justify-content-center">
+        <main class="content-wrapper">
+          <div class="mdc-layout-grid">
+            <div class="mdc-layout-grid__inner">
+              <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-10">
+                <div class="mdc-card p-0">
+                  <section class="error-header">
+                    <h1 class="mdc-typography--display2 mb-0">Error 404</h1>
+                  </section>
+                  <section class="error-info">
+                    <p>
+                        Page not found - <a href="/">Home</a>
+                    </p>                    
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+    </div>
+
+{% endblock content %}
