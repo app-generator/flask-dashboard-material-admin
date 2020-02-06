@@ -1,4 +1,4 @@
-# [Flask Dashboard Material Admin](https://appseed.us/admin-dashboards/flask-dashboard-material-admin)
+# [Flask Dashboard Material Admin](https://appseed.us/admin-dashboards/flask-dashboard-admin-material)
 
 **Open-Source Admin Dashboard** coded in **[Flask Framework](https://palletsprojects.com/p/flask/)** - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
 
@@ -101,7 +101,7 @@ Visit `http://localhost:5000` in your browser. The app should be up & running.
 
 ## Credits & Links
 
-- [Flask Dashboard Material Admin](https://appseed.us/admin-dashboards/flask-dashboard-material-admin) - Product page
+- [Flask Dashboard Material Admin](https://appseed.us/admin-dashboards/flask-dashboard-admin-material) - Product page
 - [Flask Framework](https://www.palletsprojects.com/p/flask/) - Offcial website
 - [Flask Dashboard - Open-Source Boilerplates](https://dev.to/sm0ke/flask-dashboard-open-source-boilerplates-dkg) - A popular article published on Dev.to platform
 - [Flask Dashboard](https://admin-dashboards.com/tags/flask-dashboard) - Index provided by **Admin-Dashboards.com**
@@ -115,4 +115,4 @@ Visit `http://localhost:5000` in your browser. The app should be up & running.
 <br />
 
 ---
-[Flask Dashboard Material Admin](https://appseed.us/admin-dashboards/flask-dashboard-material-admin) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+[Flask Dashboard Material Admin](https://appseed.us/admin-dashboards/flask-dashboard-admin-material) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
