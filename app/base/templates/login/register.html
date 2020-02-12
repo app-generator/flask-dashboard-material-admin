@@ -13,13 +13,19 @@
             <div class="mdc-card">
 
               <div class="text-center">
-                <h4>
+                <h2>
+                  <a href="https://appseed.us/admin-dashboards/flask-dashboard-material-admin" >Flask Dashboard Material Admin</a>
+                </h2>
+                <br />
+                <h5>
                   {% if msg %}
                       {{ msg | safe }}
                   {% else %}
-                      Sign In
+                    Add your credentials 
+                    <br />
+                    OR <a href={{ url_for('base_blueprint.login') }}>authenticate</a> using an existing account.
                   {% endif %}               
-                </h4>
+                </h5>
               </div>
                   
               <form role="form" method="post" action="">

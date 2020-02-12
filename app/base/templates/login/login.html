@@ -12,17 +12,21 @@
             <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-4-desktop mdc-layout-grid__cell--span-6-tablet">
               <div class="mdc-card">
                 <div class="text-center">
-                  <h4>
-                      {% if msg %}
-                          {{ msg | safe }}
-                      {% else %}
-                      <span>
-                        Use default credentials: test / pass
-                        <br />
-                        OR <a href={{ url_for('base_blueprint.create_user') }} >create your own user</a>
-                      </span>
-                      {% endif %}               
-                  </h4>
+                  <h1>
+                    <a href="https://appseed.us/admin-dashboards/flask-dashboard-material-admin" >Flask Dashboard Material Admin</a>
+                  </h1>
+                  <br />
+                  <h5>
+                        {% if msg %}
+                            {{ msg | safe }}
+                        {% else %}
+                        <span>
+                          Use default credentials: test / pass
+                          <br />
+                          OR <a href={{ url_for('base_blueprint.create_user') }} >create your own user</a>
+                        </span>
+                        {% endif %}               
+                  </h5>
                 </div>
                   
                 <form role="form" method="post" action="">
