@@ -15,7 +15,6 @@
 <br />
 
 ## Dashboard Links
----
 
 - [Flask Dashboard Material Admin](https://appseed.us/admin-dashboards/flask-dashboard-admin-material) - product page
 - [Flask Dashboard Material Admin](https://docs.appseed.us/admin-dashboards/flask-dashboard-material-admin/) - documentation
