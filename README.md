@@ -14,6 +14,16 @@
 
 <br />
 
+## Dashboard Links
+---
+
+- [Flask Dashboard Material Admin](https://appseed.us/admin-dashboards/flask-dashboard-admin-material) - product page
+- [Flask Dashboard Material Admin](https://docs.appseed.us/admin-dashboards/flask-dashboard-material-admin/) - documentation
+- [Flask Dashboard Material Admin](https://flask-dashboard-material-admin.appseed.us/login) - LIVE Demo
+- [Flask Dashboard Material Admin](https://www.youtube.com/watch?v=NCuMK4l2KhA) - yTube video presentation
+
+<br />
+
 ## Want more? Go PRO!
 
 PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Support** (via [Discord](https://discord.gg/fZC6hup))
