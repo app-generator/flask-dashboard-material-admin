@@ -1,4 +1,4 @@
-# [Flask Dashboard Material Admin](https://appseed.us/admin-dashboards/flask-dashboard-admin-material)
+# [Flask Dashboard - Material Admin](https://appseed.us/admin-dashboards/flask-dashboard-admin-material)
 
 > **Open-Source Admin Dashboard** coded in **Flask Framework** by **AppSeed** [Web App Generator](https://appseed.us/app-generator) - Features:
 
@@ -14,11 +14,11 @@
 
 > Links
 
-- [Flask Dashboard Material Admin](https://appseed.us/admin-dashboards/flask-dashboard-admin-material) - Product page
-- [Flask Dashboard Material Admin](https://docs.appseed.us/admin-dashboards/flask-dashboard-material-admin/) - Documentation
-- [Flask Dashboard Material Admin](https://flask-dashboard-material-admin.appseed.us/login) - LIVE Demo
-- More [Flask Admin Dashboards](https://appseed.us/admin-dashboards/flask) - index hosted by **AppSeed**
-- [Free Admin Dashboards](https://appseed.us/admin-dashboards/open-source) - index hosted by **AppSeed**
+- [Flask Dashboard - Material Admin](https://appseed.us/admin-dashboards/flask-dashboard-admin-material) - Product page
+- [Flask Dashboard Material Admin Docs](https://docs.appseed.us/admin-dashboards/flask-dashboard-material-admin/) - Documentation
+- [Flask Dashboard Material Admin Demo](https://flask-dashboard-material-admin.appseed.us/login) - LIVE App
+- More [Flask Dashboards](https://appseed.us/admin-dashboards/flask) - index hosted by **AppSeed**
+- More [Admin Dashboards](https://appseed.us/admin-dashboards) - index hosted by **AppSeed**
 
 <br />
 
@@ -172,4 +172,4 @@ Material Admin is a free admin template that is entirely built using the framewo
 <br />
 
 ---
-**[Flask Dashboard Material Admin](https://appseed.us/admin-dashboards/flask-dashboard-admin-material)** - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+[Flask Dashboard - Material Admin](https://appseed.us/admin-dashboards/flask-dashboard-admin-material) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
