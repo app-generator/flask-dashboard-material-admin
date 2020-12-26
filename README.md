@@ -175,4 +175,4 @@ Material Admin is a free admin template that is entirely built using the framewo
 <br />
 
 ---
-[Flask Dashboard](https://appseed.us/admin-dashboards/flask?ref=gh) Material Admin - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+[Flask Dashboard](https://appseed.us/admin-dashboards/flask?ref=gh) Material Admin - Provided by **AppSeed [App Generator](https://appseed.us/app-generator)**.
