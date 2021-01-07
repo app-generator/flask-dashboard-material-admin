@@ -21,7 +21,7 @@ Material Admin is free admin template that is entirely built using the framework
 
 - [Flask Material Admin](https://appseed.us/admin-dashboards/flask-dashboard-admin-material) - product page
 - [Flask Material Admin Demo](https://flask-dashboard-material-admin.appseed.us/login) - LIVE App
-- [Flask Material Admin Docs](https://docs.appseed.us/admin-dashboards/flask-dashboard-material-admin/) - Documentation
+- [Flask Tutorial](https://github.com/app-generator/tutorial-flask) - Getting started with Flask
 
 <br />
 
